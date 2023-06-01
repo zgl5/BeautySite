@@ -22,6 +22,10 @@ POST /user: Create a new user
 POST /user/login: Log in a user
 GET /user/check-token: Check token validity
 
+# Usage
+Open your web browser and navigate to https://beautysite-frontend.onrender.com/ to access the application.
+
+
 Contributing
 Contributions are welcome! If you find any issues or want to add new features, feel free to submit a pull request.
 # Image Credits
@@ -31,3 +35,4 @@ All rights and credits for the images belong to their respective owners.
 # Information Credits
 The prodecures information used in this project are sourced from (https://vedix.com/blogs/articles/different-types-of-facials-and-their-benefits).
 All rights and credits for the information belong to their respective owners. 
+
