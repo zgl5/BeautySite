@@ -4,7 +4,7 @@ const path = require('path');
 const cors = require('cors');
 const userRoute = require("./routes/api/userRoute");
 const appointmentCont= require("./controllers/api/appointmentCont");
-const procedureRoute = require("./routes/api/procedureRoute");
+
 //const ensureLoggedIn = require('./config/ensureLoggedIn')
 const passport = require('./config/passportConfig')
 const session = require('express-session');
@@ -42,7 +42,7 @@ app.use('/user', userRoute);
 // Protect the API routes below from anonymous users
 
 app.use('/appointment', appointmentCont);
-app.use('/procedure', procedureRoute);
+
 
 // The following "catch all" route (note the *) is necessary
 // to return the index.html on all non-AJAX requests
